@@ -1,0 +1,53 @@
+{
+  "name": "@zveltio/components",
+  "version": "1.0.0",
+  "description": "Official Zveltio UI component library — Svelte 5 + DaisyUI/Tailwind",
+  "type": "module",
+  "svelte": "./src/lib/index.ts",
+  "types": "./src/lib/index.ts",
+  "exports": {
+    ".": {
+      "svelte": "./src/lib/index.ts",
+      "types": "./src/lib/index.ts",
+      "import": "./src/lib/index.ts"
+    }
+  },
+  "files": [
+    "src",
+    "admin",
+    "ai",
+    "attachments",
+    "charts",
+    "common",
+    "dashboard",
+    "forms",
+    "navigation",
+    "pages",
+    "views"
+  ],
+  "scripts": {
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "peerDependencies": {
+    "svelte": "^5.0.0"
+  },
+  "devDependencies": {
+    "svelte": "^5.0.0",
+    "svelte-check": "^4.0.0",
+    "typescript": "^5.4.0"
+  },
+  "keywords": [
+    "svelte",
+    "svelte5",
+    "zveltio",
+    "components",
+    "ui",
+    "daisy",
+    "tailwind"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liviumarianiordache/zveltio-components.git"
+  }
+}
