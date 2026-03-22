@@ -48,6 +48,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/liviumarianiordache/zveltio-components.git"
+    "url": "git+https://github.com/zveltio-devs/zveltio-components.git"
   }
 }
